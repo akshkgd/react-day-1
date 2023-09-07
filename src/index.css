@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.demo-card{
+  width: 300px;
+  margin: 40px auto;
+  box-shadow: 4px 6px 12px 8px #eee;
+  padding: 10px;
+  border-radius: 14px;
+}
+.demo-card img{
+  width: 100%;
+  border-radius: 14px;
+}
+.btn{
+  background-color: black;
+  padding: 15px 42px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 50px;
+  cursor: pointer;
+}

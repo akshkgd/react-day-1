@@ -39,6 +39,7 @@
 
 
 .card{
+  transition:.2s;
   width: 260px;
   border: 1px solid lightgray;
   border-radius: 14px;
@@ -60,7 +61,8 @@
   margin-top: 40px;
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 12px;
+  flex-wrap: wrap;
 }
 .card-header{
   position: relative;
@@ -77,4 +79,26 @@
 }
 .d-none{
   display: none;
+}
+.fw-light{
+  font-weight: normal;
+}
+.price{
+  margin: 4px 0;
+}
+
+.card:hover{
+  cursor: pointer;
+  transform: rotate(1deg);
+  border: 1px solid white;
+  box-shadow: 4px 6px 12px 8px #eee;
+}
+.btn{
+  background-color: black;
+  padding: 15px 42px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 50px;
+  cursor: pointer;
 }
